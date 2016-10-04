@@ -47,11 +47,10 @@ repository. Alternately you can build it using the following YAML:
               kind: ImageStreamTag
               name: rhel7-weblogic-domain:latest
           type: Docker
+        triggers:
         - type: ConfigChange
         - imageChange: {}
           type: ImageChange
-      status:
-        lastVersion: 0
 
     - kind: DeploymentConfig
       apiVersion: v1
@@ -90,7 +89,6 @@ repository. Alternately you can build it using the following YAML:
               kind: ImageStreamTag
               name: rhel7-weblogic-sampleapp:latest
           type: ImageChange
-      status: {}
 
     - kind: Service
       apiVersion: v1
