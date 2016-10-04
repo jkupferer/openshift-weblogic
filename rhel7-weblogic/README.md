@@ -37,8 +37,8 @@ you would set these in your buildconfig as:
 Deploying this Application within OpenShift
 ===========================================
 
-This application can be deployed using YAML as shown below. Be certain to
-customizethe the environment variables as described above:
+This image builder can be deployed using YAML as shown below. Be certain to
+customize the the environment variables as described above:
 
     kind: List
     apiVersion: v1
