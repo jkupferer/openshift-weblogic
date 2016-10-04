@@ -46,7 +46,6 @@ repository. Alternately you can build it using the following YAML:
             from:
               kind: ImageStreamTag
               name: rhel7-weblogic-domain:latest
-              namespace: verizon
           type: Docker
         - type: ConfigChange
         - imageChange: {}
