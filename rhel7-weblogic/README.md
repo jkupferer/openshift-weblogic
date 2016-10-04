@@ -76,7 +76,7 @@ customizethe the environment variables as described above:
             - name: FMW_VERSION
               value: 12.2.1.1.0
             - name: FMW_QUICK
-              value: true
+              value: "True"
             from:
               kind: ImageStreamTag
               name: rhel7-java-180-oracle:latest
