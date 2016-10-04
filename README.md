@@ -1,0 +1,1 @@
+# WebLogic on OpenShift
