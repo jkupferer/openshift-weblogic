@@ -80,7 +80,6 @@ customize the the environment variables as described above:
             from:
               kind: ImageStreamTag
               name: rhel7-java-180-oracle:latest
-              namespace: verizon
           type: Docker
         triggers:
         - type: ConfigChange
