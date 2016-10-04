@@ -1,8 +1,8 @@
 # LICENSE CDDL 1.0 + GPL 2.0
 #
-# ORACLE DOCKERFILES PROJECT
+# Adapted from ORACLE DOCKERFILES PROJECT
 # --------------------------
-# This Dockerfile extends the Oracle WebLogic image built under 1221-domain with tag name '1221-domain'
+# This Dockerfile extends the Oracle WebLogic image built as rhel7-weblogic-domain.
 #
 # It will deploy any package defined in APP_PKG_FILE located in APP_PKG_LOCATION
 # into the DOMAIN_HOME with name defined in APP_NAME
@@ -18,10 +18,7 @@
 # APP_PKG_LOCATION - default: /u01/oracle
 #
 #
-# Pull base image
-# ---------------
 FROM rhel7-weblogic-domain
-
 MAINTAINER Johnathan Kupferer <jkupfere@redhat.com>
 
 # Define variables with default values

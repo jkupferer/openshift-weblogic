@@ -54,10 +54,10 @@ This application can be deployed using the following YAML:
             kind: ImageStreamTag
             name: rhel7-weblogic-domain:latest
         source:
+          type: Git
           git:
             uri: https://github.com/jkupferer/openshift-weblogic.git
           contextDir: rhel7-weblogic-domain
-          type: Git
         strategy:
           dockerStrategy:
             from:
