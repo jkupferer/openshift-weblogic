@@ -13,3 +13,7 @@ See README.md in each directory.
 A sample application deployment is found in:
 
 * rhel7-weblogic-sampleapp
+
+A sample httpd deployment using the WebLogic module is in:
+
+* rhel7-weblogic-httpd
