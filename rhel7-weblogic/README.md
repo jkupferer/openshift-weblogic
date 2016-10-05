@@ -9,6 +9,20 @@ This is an adaptation of the Dockerfile provided by Oracle here:
 https://github.com/oracle/docker-images/tree/master/OracleWebLogic/dockerfiles/
 
 
+Required Files
+==============
+
+This build requires that you host a local copy of the WebLogic installer in
+a fileserver within your environment. You can use either the quick or generic
+installers.
+
+For example, the generic installer: fmw_12.2.1.1.0_wls_Disk1_1of1.zip 
+
+Or for quick installer: fmw_12.2.1.1.0_wls_quick_Disk1_1of1.zip 
+
+These may be downloaded from:
+http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-for-dev-1703574.html 
+
 Image Build Configuration
 =========================
 

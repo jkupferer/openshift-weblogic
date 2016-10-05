@@ -12,7 +12,8 @@
 # Or for developer build:
 #   fmw_12.2.1.1.0_wls_quick_Disk1_1of1.zip 
 #
-# Download the installer from http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-for-dev-1703574.html 
+# Download from:
+# http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-for-dev-1703574.html 
 #
 # The zip archive used must be available for download at a URL specified in
 # FMW_BASEURL.
@@ -23,8 +24,10 @@
 #
 # FMW_BASEURL - Base http or https bath from which to download the weblogic
 #               zip archive.
+#
 # FMW_VERSION - Set to the desired version as matching zip archive
 #               (ex: 12.2.1.1.0)
+#
 # FMW_QUICK   - If set then the quick/developer version of weblogic will be
 #               used.
 # 

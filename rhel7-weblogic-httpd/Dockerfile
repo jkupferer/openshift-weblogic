@@ -24,6 +24,7 @@
 #
 # FMW_VERSION - Set to the desired version as matching zip archive
 #               (ex: 12.2.1.1.0)
+# 
 FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
 MAINTAINER Johnathan Kupferer <jkupfere@redhat.com>
 
